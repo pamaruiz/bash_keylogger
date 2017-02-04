@@ -1,4 +1,4 @@
-# bash_keylogger (probado en Ubuntu)
+# bash_keylogger
 keylogger en bash se debe ejecutar en background:
 
 ./keylogger_bash & 
