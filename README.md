@@ -6,7 +6,7 @@ Para ello ejecuta en una shell:
 
 si te saliese este error en la consola: "No se puede conseguir un descriptor de archivo referido a la consola"
 tendras q dar permisos "s" al ejecutable del showkey como root, asi: 
-(para conseguir una escalada de privilegios a root usa el exploit para <Dirty Cow>)
+(para conseguir una escalada de privilegios a root usa el exploit para Dirty Cow)
 
 chmod +4000 /usr/bin/showkey 
 
