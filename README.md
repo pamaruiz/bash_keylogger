@@ -4,10 +4,5 @@ keylogger en bash se debe ejecutar en background:
 ./keylogger_bash & 
 
 
-
-cuando quiera generar el fichero he de mandar una señal al proceso del script, asi:
-
-kill -s SIGUSR1 `ps -C keylogger_bash.sh -o pid --no-headers`
-
-el fichero se genera en /tmp.
-Puedes hacer q funcione como un servicio en el arranque. consiguiendo una escalada de privilegios con Dirty Cow
+el fichero que intercepta todo lo pulsado se genera en /tmp con nombre "teclas-..."
+Puedes hacer q funcione como un servicio en el arranque, consiguiendo una escalada de privilegios con Dirty Cow
