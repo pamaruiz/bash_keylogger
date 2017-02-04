@@ -17,4 +17,6 @@ Puedes hacer q funcione como un servicio en el arranque:
 
     -fichero de configuracion del servicio para SYSTEMD:  keylogger.service
     -fichero de configuracion del servicio para UPSTART:  keylogger.conf
+    -fichero de configuracion del sercicion para el antiguo INIT: keylogger_service_init.sh
+    
 
